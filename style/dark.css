@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Commissioner;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.head {
+  background-color: black;
+}
+
+::-webkit-scrollbar-track {
+  background: #018fa3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #018fa3;
+  border-radius: 8px;
+  border: 3px solid #fbe856;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9e8e15;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #018fa3;
+  width: 0%;
+}
+
+.burger {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.ul li:hover {
+  color: #fbe856;
+}
+
+.burger span,
+.burger span:before,
+.burger span:after {
+  width: 100%;
+  position: absolute;
+  height: 5px;
+  background: #018fa3;
+  display: block;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.burger span:before {
+  content: "";
+  top: -20px;
+  transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.burger span {
+  top: 20px;
+}
+
+.burger span:after {
+  content: "";
+  bottom: -20px;
+  transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.burger span.crestik:before {
+  content: "";
+  top: 0px;
+  transform: rotate(45deg);
+  transition: top 300ms,
+    transform 300ms 300ms cubic-bezier(0.68, -0.55, 0, 1.55);
+}
+
+.burger span.crestik:after {
+  content: "";
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms,
+    transform 300ms 300ms cubic-bezier(0.68, -0.55, 0, 1.55);
+}
+
+.burger span.crestik {
+  background: transparent;
+}
+
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-button-next {
+  color: #fff;
+}
+.menu {
+  background: #018fa3;
+}
+
+.animate {
+  top: 108px;
+}
+
+.right {
+  left: 48px;
+  background-color: black;
+}
+
+.color_mode {
+  background-color: rgb(255, 255, 255);
+}
+
+.ul li {
+  color: #ffff;
+}
+
+.first_p {
+  color: #fff;
+}
+
+.second_p {
+  color: #fff;
+}
+
+.box_father_four {
+  background-color: #282626;
+}
+
+.slide {
+  background-color: #4e4b4b;
+}
+
+.title_h11 {
+  color: white;
+}
+
+.school {
+  color: white;
+}
+
+.box_father_five {
+  background-color: #000000;
+}
+
+.box_father_six{
+  background-color: #282626;
+}
+
+.cert_h1,
+.left_name,
+.coment {
+  color: white;
+}
+
+
+.from_five,
+.a {
+  color: #fff;
+}
+
+.p_block,
+.block_one_p {
+  color: #018fa3;
+}
